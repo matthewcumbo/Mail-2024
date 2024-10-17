@@ -1,0 +1,7 @@
+{
+  "name": "Mail-2024",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
