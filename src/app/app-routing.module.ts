@@ -10,6 +10,14 @@ const routes: Routes = [
   {
     path: 'folder/:id',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
+  },
+  {
+    path: 'new-mail',
+    loadChildren: () => import('./new-mail/new-mail.module').then( m => m.NewMailPageModule)
+  },
+  {
+    path: 'spotify',
+    loadChildren: () => import('./spotify/spotify.module').then( m => m.SpotifyPageModule)
   }
 ];
 
